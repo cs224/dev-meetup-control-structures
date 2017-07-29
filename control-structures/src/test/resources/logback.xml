@@ -1,0 +1,20 @@
+<!-- http://logback.qos.ch/manual/configuration.html -->
+<configuration scan="true" scanPeriod="30 seconds">
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- encoders are assigned the type
+         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %method - %msg%n</pattern>
+      <!--  <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %method - %msg %ex{10}%n</pattern>  -->
+    </encoder>
+  </appender>
+  <!-- logging fiber Id: https://groups.google.com/forum/?fromgroups#!searchin/quasar-pulsar-user/logging/quasar-pulsar-user/DJT8fk58sn8/J27r7m8rCAAJ -->
+
+  <logger name="control.structures" level="debug"/>
+  <logger name="control.structures.dataflow" level="info"/>
+
+  <root level="info">
+    <appender-ref ref="STDOUT" />
+  </root>
+</configuration>
