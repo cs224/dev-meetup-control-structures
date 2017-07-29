@@ -1,0 +1,12 @@
+/RemoteSystemsTempFiles/
+/.metadata/
+/.recommenders/
+/actor-with-fibers
+*.classpath
+*.project
+*.settings/
+*target/
+*~
+*.xls
+quasar-core.jar
+
