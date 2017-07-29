@@ -1,5 +1,5 @@
 
-Use the following link to brose the dev-meetup content: [dev-meetup-control-structures](https://rawcdn.githack.com/cs224/dev-meetup-control-structures/master/index.html)
+Use the following link to browse the dev-meetup content: [dev-meetup-control-structures](https://rawcdn.githack.com/cs224/dev-meetup-control-structures/master/index.html)
 
 You can rebuild the document locally by executing:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.bash}
